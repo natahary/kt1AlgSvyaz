@@ -1,4 +1,9 @@
-package PACKAGE_NAME;
+public class Node<T> {
+    T value;
+    Node<T> next;
 
-public class Node {
+    Node(T value) {
+        this.value = value;
+        this.next = null;
+    }
 }
